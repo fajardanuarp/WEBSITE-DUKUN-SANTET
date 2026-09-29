@@ -1,0 +1,107 @@
+[
+  {
+    "id": "boneka",
+    "file": "boneka.glb",
+    "name": "Boneka Santet",
+    "nameEn": "Effigy doll",
+    "blurb": "Dijahit tangan. Penuh perhatian. Termasuk satu jarum; jarum tambahan dijual terpisah.",
+    "price": "Rp 666.000",
+    "scale": 1,
+    "anchor": [
+      -2.5,
+      0.05,
+      0
+    ],
+    "orbitRadius": 0.12,
+    "orbitSpeed": 0.3,
+    "focusOffset": [
+      0,
+      0,
+      3.3
+    ]
+  },
+  {
+    "id": "foto",
+    "file": "foto.glb",
+    "name": "Foto Pelet",
+    "nameEn": "A paper memory",
+    "blurb": "Selembar foto, banyak cerita. Dicetak di kertas. Tersimpan di ingatan. Kenangan tidak termasuk garansi.",
+    "price": "Rp 150.000",
+    "scale": 1,
+    "anchor": [
+      -1.2,
+      0.4,
+      0
+    ],
+    "orbitRadius": 0.1,
+    "orbitSpeed": 0.25,
+    "focusOffset": [
+      0,
+      0,
+      3.3
+    ]
+  },
+  {
+    "id": "keris",
+    "file": "keris.glb",
+    "name": "Keris Pusaka",
+    "nameEn": "Heirloom blade",
+    "blurb": "Warisan lintas generasi. Sekarang dengan layanan pelanggan. Bukan untuk membuka paket.",
+    "price": "Rp 1.250.000",
+    "scale": 1.3,
+    "anchor": [
+      0.1,
+      0.9,
+      -0.5
+    ],
+    "orbitRadius": 0.1,
+    "orbitSpeed": 0.25,
+    "focusOffset": [
+      0,
+      0,
+      3.5
+    ]
+  },
+  {
+    "id": "tarot",
+    "file": "tarot.glb",
+    "name": "Kartu Tarot",
+    "nameEn": "A little clarity",
+    "blurb": "Untuk pertanyaan yang tidak bisa dijawab search engine. Masa depan tidak termasuk garansi.",
+    "price": "Rp 250.000",
+    "scale": 1.1,
+    "anchor": [
+      2.4,
+      0.1,
+      0
+    ],
+    "orbitRadius": 0.14,
+    "orbitSpeed": 0.2,
+    "focusOffset": [
+      0,
+      0,
+      3.3
+    ]
+  },
+  {
+    "id": "jenglot",
+    "file": "jenglot.glb",
+    "name": "Jenglot",
+    "nameEn": "The old soul",
+    "blurb": "Kecil bentuknya, panjang ceritanya. Koleksi dengan karakter. Gratis ongkir, bukan gratis tanggung jawab.",
+    "price": "Rp 888.000",
+    "scale": 1,
+    "anchor": [
+      -0.4,
+      -1.15,
+      0.3
+    ],
+    "orbitRadius": 0.1,
+    "orbitSpeed": 0.22,
+    "focusOffset": [
+      0,
+      0,
+      3.3
+    ]
+  }
+]

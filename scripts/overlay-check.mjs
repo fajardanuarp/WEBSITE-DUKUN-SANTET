@@ -1,0 +1,4 @@
+import {chromium} from 'playwright';import assert from 'node:assert/strict';
+const b=await chromium.launch({channel:'chrome',headless:true});const p=await b.newPage();await p.goto('http://localhost:5173');await p.waitForTimeout(3500);
+const state=()=>p.locator('.zoom-panel').evaluate(el=>({opacity:getComputedStyle(el).opacity,visibility:getComputedStyle(el).visibility,inert:el.inert}));
+assert.deepEqual(await state(),{opacity:'0',visibility:'hidden',inert:true});await p.evaluate(()=>scrollTo(0,innerHeight*2.2));await p.waitForTimeout(3500);assert.deepEqual(await state(),{opacity:'1',visibility:'visible',inert:false});await p.getByRole('button',{name:'Kartu Tarot',exact:true}).click();await p.evaluate(()=>scrollTo(0,0));await p.waitForTimeout(4000);assert.deepEqual(await state(),{opacity:'0',visibility:'hidden',inert:true});console.log('PASS initial hero hidden, zoom visible, reverse scroll hidden after selection');await b.close();
